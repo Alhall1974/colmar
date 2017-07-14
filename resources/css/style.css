@@ -1,0 +1,198 @@
+html,
+body {
+  font-size: 16px;
+  line height: 1.4;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.container {
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: white;
+  height: 4rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: darkgrey;
+}
+
+.colmar{
+  font-weight: bolder;
+}
+
+nav img{
+  height: 1.5rem;
+  align-items: center;
+  padding-left: 1.5rem;
+
+}
+
+
+ul {
+  display: flex;
+  list-style: none;
+
+}
+
+li a{
+  padding-right: 1rem;
+  color: darkgrey;
+  transition
+}
+
+
+
+@media only screen and (min-width: 960px) {
+  .mobile-nav {
+    display: none;
+  }
+
+.background{
+  background-color: lightgrey;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.main-image{
+  display: flex;
+  border: 1px solid red;
+
+}
+
+.main-image img {
+  margin: 2rem 2.5rem 2rem 1.5rem;
+  width: 60%;
+  border: 1px solid red;
+
+}
+
+.text-container{
+  display: flex;
+  border: 1px solid red;
+  align-content: center;
+  line-height: 1;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border: 1px solid red;
+  justify-content: center;
+  margin: 0 10rem 2rem 0;
+}
+
+h1{
+  font-size: 3rem;
+  color: rgb(51, 46, 47);
+}
+
+h5{
+  font-size: 1.5rem
+}
+
+h6{
+  font-size: 1rem;
+}
+
+h6 a {
+  color: white;
+}
+
+.main-button {
+  background-color: rgb(51, 46, 47);
+  text-align: center;
+  padding: 0 5rem;
+  border-radius: 2rem;
+  align-self: center;
+  line-height: 0.7;
+  transition: orange;
+}
+
+.second-container{
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.second-container img{
+  border: 1px solid red;
+  width: 100%;
+}
+
+.second-container-text{
+  max-width: 80%;
+}
+
+.info-column {
+  border-left: 1px solid lightgrey;
+  margin-left: 4rem;
+}
+
+.image-column {
+  padding: 2rem 2rem 1.5rem 1.5rem;
+  border: 1px solid red;
+  display: flex;
+  width: 26.4375rem;
+}
+
+.image-column h6 {
+  line-height: 0.5;
+}
+
+.image-column img {
+  width: 35%;
+  padding-right: 1.5rem;
+}
+
+.image-column a{
+  color: lightblue;
+ font-weight: bolder;
+}
+
+.info-highlight {
+  background-color: lightgrey;
+}
+
+.learning-container {
+  background-color: lightgrey;
+  width: 100%;
+  border: 1px solid blue;
+}
+
+.section-head {
+  align-content: center;
+}
+
+.courses-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2rem 3rem;
+}
+
+.course {
+  height: 13.75rem;
+  background color: white;
+  border: 1px solid blue;
+}
+
+.course img{
+  width: 20rem;
+}
